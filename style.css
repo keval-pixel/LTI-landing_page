@@ -1,0 +1,139 @@
+.br-image{
+position: static;
+width: 100%;
+height: 100%;
+background: url(images/hayley-maxwell-gqIOC52Pd3c-unsplash.jpg) no-repeat center center fixed;
+background-size: cover;
+filter: blur(8px);
+overflow: hidden;
+}
+
+
+.container{
+position: absolute;
+width: 1000px;
+height: 1070px;
+top: 50%;
+left: 50%;
+z-index: 2;
+transform: translate(-50%, -50%);
+background: rgba(0, 0, 0, 0.25);
+border-radius: 79px;
+animation-name:upper;
+animation-duration: 2s;
+}
+
+@keyframes upper{
+    from {height:0px ;}
+    to {height: 1070px;}
+}
+
+
+/* Saber mais */
+.container button{
+width: 199.54px;
+height: 75px;
+background: #000000;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 35px;
+cursor: pointer;
+border:20px;
+}
+
+#contactar{
+position: absolute;
+left: 62.5%;
+top: 90%;
+transform:translate(-50%,-50%);
+}
+#visitar{
+    position: absolute;
+    left: 37.5%;
+    top: 90%;
+    transform:translate(-50%,-50%);
+}
+.container button a{
+font-family: RedHat Text;
+font-style: normal;
+font-size: 30px;
+text-decoration:none;
+color: #fff;
+}
+
+.container button:hover{
+    box-shadow: 0px 0px 10px orangered, 0px 0px 25px navy;;
+}
+
+.container .caixa{
+position: relative;
+width: 550px;
+height: 600px;
+left: 50%;
+top: 55%;
+transform:translate(-50%,-50%);
+border: 5px solid #000000;
+box-sizing: border-box;
+border-radius: 40px;
+box-shadow: inset -4px -4px 4px orangered, inset 4px 4px 4px navy;
+}
+
+
+#quote{
+    position: absolute;
+    color: #DCC9C9;
+    font-size: 29px;
+    font-family: 'Lucida Handwriting', cursive;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    transform:translate(-50%, 0);
+    width: 300px;
+    height: 239.84px;
+    display: flex;
+}
+#author{
+    position: absolute;
+    left:55%;
+    top: 32%;
+    font-family:papyrus, fantasy;
+    font-style: italic;
+    font-size: 25px;
+    text-align: right;
+}
+
+.container .caixa ul{
+    width: auto;
+    height: 40%;
+}
+.container .caixa ul li{
+    width: 50%;
+    height: 50%;
+    margin:5%
+}
+.texto{
+    font-size: 30px;
+    display: block;
+    color: #DCC9C9;
+    align-items: center;
+    text-shadow:2px 2px 2px black;
+}
+#left{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+#right{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.container .logo{
+position: absolute;
+width: 172px;
+height: 187px;
+left: 50%;
+top: 15%;
+transform:translate(-50%,-50%);
+background: url(images/lti.png);
+}
